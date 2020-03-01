@@ -1,5 +1,11 @@
-﻿using AutoMapper;
+﻿// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UserManagement.Api.Resources;
@@ -31,7 +37,7 @@ namespace UserManagement.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<UserResource>> GetUserById(int id)
+        public async Task<ActionResult<UserResource>> GetUserById(Guid id)
         {
             var user = await _userService.GetById(id);
 
@@ -55,7 +61,7 @@ namespace UserManagement.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<UserResource>> UpdateUser(int id, [FromBody] UserResource userRequest)
+        public async Task<ActionResult<UserResource>> UpdateUser(Guid id, [FromBody] UserResource userRequest)
         {
             var userToBeUpdate = await _userService.GetById(id);
 
@@ -73,9 +79,9 @@ namespace UserManagement.Api.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(Guid id)
         {
-            if (id == 0)
+            if (id == Guid.Empty)
                 return BadRequest();
 
             var user = await _userService.GetById(id);
@@ -90,20 +96,36 @@ namespace UserManagement.Api.Controllers
 
         [HttpGet]
         [Route("login")]
-        public async Task<ActionResult<UserResource>> Login (string email, string password)
+        public async Task<ActionResult<UserResource>> Login(string email, string password)
         {
             var user = await _userService.GetByEmailAndPassword(email, password);
 
             if (user == null)
                 return NotFound();
-            
+
             var loginUser = await _userService.GetById(user.Id);
             var loginUserResource = _mapper.Map<User, UserResource>(loginUser);
 
             return Ok(loginUserResource);
         }
 
+        [HttpPatch("{id}", Name = "PatchBook")]
+        public async Task<ActionResult<UserResource>> PatchBook(Guid id, [FromBody] List<PatchDto> patchDtos)
+        {
+            if (id == Guid.Empty)
+                return BadRequest();
 
+            var user = await _userService.GetById(id);
 
+            List<Patch> patches = new List<Patch>();
+
+            var patch = _mapper.Map<List<PatchDto>, List<Patch>>(patchDtos, patches);
+
+            var updatedUser = await _userService.ApplyPatchAsync(user, patch);
+
+            var updatedUserResource = _mapper.Map<User, UserResource>(updatedUser);
+
+            return Ok(updatedUserResource);
+        }
     }
 }

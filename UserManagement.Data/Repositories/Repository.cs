@@ -1,9 +1,15 @@
+// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using UserManagement.Core.Models;
 using UserManagement.Core.Repositories;
 
 namespace UserManagement.Data.Repositories
@@ -11,11 +17,12 @@ namespace UserManagement.Data.Repositories
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         protected readonly DbContext Context;
-        
+
         public Repository(DbContext context)
         {
             this.Context = context;
         }
+
         public async Task AddAsync(TEntity entity)
         {
             await Context.Set<TEntity>().AddAsync(entity);
@@ -33,10 +40,10 @@ namespace UserManagement.Data.Repositories
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return  await Context.Set<TEntity>().ToListAsync();
+            return await Context.Set<TEntity>().ToListAsync();
         }
 
-        public ValueTask<TEntity> GetByIdAsync(int id)
+        public ValueTask<TEntity> GetByIdAsync(Guid id)
         {
             return Context.Set<TEntity>().FindAsync(id);
         }

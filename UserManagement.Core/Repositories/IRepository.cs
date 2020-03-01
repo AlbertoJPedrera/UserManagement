@@ -1,13 +1,19 @@
+// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using UserManagement.Core.Models;
 
 namespace UserManagement.Core.Repositories
 {
     public interface IRepository<TEntity> where TEntity : class
     {
-        ValueTask<TEntity> GetByIdAsync(int id);
+        ValueTask<TEntity> GetByIdAsync(Guid id);
 
         Task<IEnumerable<TEntity>> GetAllAsync();
 

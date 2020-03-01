@@ -1,5 +1,11 @@
-﻿using System;
+﻿// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using UserManagement.Core;
 using UserManagement.Core.Models;
@@ -38,13 +44,13 @@ namespace UserManagement.Services
                 .GetAllAsync();
         }
 
-        public async Task<User> GetById(int id)
+        public async Task<User> GetById(Guid id)
         {
             return await _unitOfWork.Users
                 .GetByIdAsync(id);
         }
 
-        public async Task<User> GetByEmailAndPassword (string email, string password)
+        public async Task<User> GetByEmailAndPassword(string email, string password)
         {
             return await _unitOfWork.Users
                 .GetByEmailAndPasswordAsync(email, password);
@@ -63,14 +69,18 @@ namespace UserManagement.Services
             await _unitOfWork.CommitAsync();
         }
 
-        public async Task<User> UpdatePassword(User user, string newPassword)
+        public async Task<User> ApplyPatchAsync(User user, List<Patch> patches)
         {
-            user.Password = newPassword;
+            var nameValuePairProperties = patches.ToDictionary(a => a.PropertyName, a => a.PropertyValue);
+
+            foreach (var property in nameValuePairProperties)
+            {
+                user.GetType().GetProperty(property.Key).SetValue(user, property.Value, null);
+            }
 
             await _unitOfWork.CommitAsync();
 
-            return await _unitOfWork.Users
-                .GetByIdAsync(user.Id);
+            return user;
         }
     }
 }

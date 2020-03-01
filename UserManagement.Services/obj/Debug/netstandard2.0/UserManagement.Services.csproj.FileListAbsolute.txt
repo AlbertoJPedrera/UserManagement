@@ -9,3 +9,15 @@ D:\Programación\Net Core\UserManagement\UserManagement.Services\bin\Debug\netst
 D:\Programación\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.csproj.CopyComplete
 D:\Programación\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.dll
 D:\Programación\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\bin\Debug\netstandard2.0\UserManagement.Services.deps.json
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\bin\Debug\netstandard2.0\UserManagement.Services.dll
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\bin\Debug\netstandard2.0\UserManagement.Services.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\bin\Debug\netstandard2.0\UserManagement.Core.dll
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\bin\Debug\netstandard2.0\UserManagement.Core.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.csprojAssemblyReference.cache
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.csproj.CoreCompileInputs.cache
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.AssemblyInfoInputs.cache
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.AssemblyInfo.cs
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.csproj.CopyComplete
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.dll
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Services\obj\Debug\netstandard2.0\UserManagement.Services.pdb

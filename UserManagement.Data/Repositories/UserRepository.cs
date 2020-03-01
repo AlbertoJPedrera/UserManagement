@@ -1,3 +1,8 @@
+// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,7 +14,7 @@ namespace UserManagement.Data.Repositories
 {
     public class UserRepository : Repository<User>, IUserRepository
     {
-        public UserRepository(UserManagementDbContext context) 
+        public UserRepository(UserManagementDbContext context)
             : base(context)
         { }
 
@@ -17,14 +22,6 @@ namespace UserManagement.Data.Repositories
         {
             return await UserManagementDbContext.Users
                 .SingleOrDefaultAsync(u => u.Email == email && u.Password == password);
-        }
-
-        public User UpdatePassword(User user, string password)
-        {
-            user.Password = password;
-
-            return UserManagementDbContext.Users
-                .Update(user);
         }
 
         private UserManagementDbContext UserManagementDbContext

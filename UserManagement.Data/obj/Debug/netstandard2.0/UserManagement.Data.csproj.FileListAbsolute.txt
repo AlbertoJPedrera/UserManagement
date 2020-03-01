@@ -9,3 +9,15 @@ D:\Programación\Net Core\UserManagement\UserManagement.Data\bin\Debug\netstanda
 D:\Programación\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.csproj.CopyComplete
 D:\Programación\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.dll
 D:\Programación\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.csprojAssemblyReference.cache
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.csproj.CoreCompileInputs.cache
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.AssemblyInfoInputs.cache
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.AssemblyInfo.cs
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.dll
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\bin\Debug\netstandard2.0\UserManagement.Data.deps.json
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\bin\Debug\netstandard2.0\UserManagement.Data.dll
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\bin\Debug\netstandard2.0\UserManagement.Data.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\bin\Debug\netstandard2.0\UserManagement.Core.dll
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\bin\Debug\netstandard2.0\UserManagement.Core.pdb
+C:\Temp\Programacion\Net Core\UserManagement\UserManagement.Data\obj\Debug\netstandard2.0\UserManagement.Data.csproj.CopyComplete

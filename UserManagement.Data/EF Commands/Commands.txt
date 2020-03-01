@@ -1,0 +1,11 @@
+﻿# Comando para crear la migración inicial
+dotnet ef --startup-project UserManagement.Api/UserManagement.Api.csproj migrations add InitialModel -p UserManagement.Data/UserManagement.Data.csproj
+
+# Comando para actualizar la Base de datos con las migraciones existentes
+dotnet ef --startup-project UserManagement.Api/UserManagement.Api.csproj database update
+
+# Crear valores iniciales en la Base de datos con una migración
+dotnet ef --startup-project UserManagement.Api/UserManagement.Api.csproj migrations add SeedUserssTable -p UserManagement.Data/UserManagement.Data.csproj
+
+# Ejecutar la aplicación con Swagger
+dotnet run -p UserManagement.Api/UserManagement.Api.csproj

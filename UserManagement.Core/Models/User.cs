@@ -1,3 +1,8 @@
+// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -5,7 +10,8 @@ namespace UserManagement.Core.Models
 {
     public class User
     {
-        public int Id { get; set; }
+        [Key]
+        public Guid Id { get; set; }
 
         [Required]
         [StringLength(100)]

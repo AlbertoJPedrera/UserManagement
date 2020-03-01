@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ao196Zo2/GAg2Swv2pkRU5zMmsKF1HkjzZTFV8dEA6yCr3vAlhulFQwk7UD5R8sqBrhiXxyy0gj5dUhiVF/iUA==",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

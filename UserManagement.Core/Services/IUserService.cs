@@ -1,3 +1,9 @@
+// -----------------------------------------------------
+//     Class name
+//     Author: Alberto José Pedrera Ros
+//------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UserManagement.Core.Models;
@@ -8,7 +14,7 @@ namespace UserManagement.Core.Services
     {
         Task<IEnumerable<User>> GetAll();
 
-        Task<User> GetById(int id);
+        Task<User> GetById(Guid id);
 
         Task<User> Create(User newUser);
 
@@ -17,5 +23,7 @@ namespace UserManagement.Core.Services
         Task Delete(User user);
 
         Task<User> GetByEmailAndPassword(string email, string password);
+
+        Task<User> ApplyPatchAsync(User user, List<Patch> patches);
     }
 }
