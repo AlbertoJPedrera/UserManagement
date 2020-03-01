@@ -1,0 +1,8 @@
+D:\Programación\Net Core\UserManagement\UserManagement.Core\obj\Debug\netstandard2.0\UserManagement.Core.AssemblyInfoInputs.cache
+D:\Programación\Net Core\UserManagement\UserManagement.Core\obj\Debug\netstandard2.0\UserManagement.Core.AssemblyInfo.cs
+D:\Programación\Net Core\UserManagement\UserManagement.Core\bin\Debug\netstandard2.0\UserManagement.Core.deps.json
+D:\Programación\Net Core\UserManagement\UserManagement.Core\bin\Debug\netstandard2.0\UserManagement.Core.dll
+D:\Programación\Net Core\UserManagement\UserManagement.Core\bin\Debug\netstandard2.0\UserManagement.Core.pdb
+D:\Programación\Net Core\UserManagement\UserManagement.Core\obj\Debug\netstandard2.0\UserManagement.Core.dll
+D:\Programación\Net Core\UserManagement\UserManagement.Core\obj\Debug\netstandard2.0\UserManagement.Core.pdb
+D:\Programación\Net Core\UserManagement\UserManagement.Core\obj\Debug\netstandard2.0\UserManagement.Core.csprojAssemblyReference.cache
