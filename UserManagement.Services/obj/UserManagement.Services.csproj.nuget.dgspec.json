@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj": {}
+    "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj": {
+    "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj",
+        "projectUniqueName": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj",
         "projectName": "UserManagement.Core",
-        "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\obj\\",
+        "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\AlbertoPyt\\.nuget\\packages\\",
+        "outputPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\AlbertoPyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -68,27 +66,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014977\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj": {
+    "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj",
+        "projectUniqueName": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj",
         "projectName": "UserManagement.Services",
-        "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\obj\\",
+        "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\AlbertoPyt\\.nuget\\packages\\",
+        "outputPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\AlbertoPyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -100,8 +96,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj": {
-                "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj"
+              "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj": {
+                "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj"
               }
             }
           }
@@ -132,7 +128,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014977\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4157,7 +4157,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.3.0": {
-      "sha512": "Ma/DVHfRcOcgQFHVGafUrT7hT1IitsnmUjpNZG5xJCYrI/8wfaYKGYNZycxQyl9Nk+9IAJiMJE6RFuavRQ2WEg==",
+      "sha512": "CpVfOH0M/uZ5PH+M9+Gu56K0j9lJw3M+PKRegTkcrY/stOIvRUeonggxNrfBYLA5WOHL2j15KNJuTuld3x4o9w==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.3.0",
       "files": [
@@ -4463,7 +4463,7 @@
       ]
     },
     "System.Security.SecureString/4.3.0": {
-      "sha512": "VQRz+JB9J9NVIKT7ZpIvDUIhq6nNhKfoo1sWLwBvbat+A78FIUS54XXn9a+xu2VFXfWpR8vn6LenYqNKAuq0Eg==",
+      "sha512": "PnXp38O9q/2Oe4iZHMH60kinScv6QiiL2XH54Pj2t0Y6c2zKPEiAZsM/M3wBOHLNTBDFP0zfy13WN2M0qFz5jg==",
       "type": "package",
       "path": "system.security.securestring/4.3.0",
       "files": [
@@ -5216,27 +5216,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alber\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\AlbertoPyt\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Api\\UserManagement.Api.csproj",
+      "projectUniqueName": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Api\\UserManagement.Api.csproj",
       "projectName": "UserManagement.Api",
-      "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Api\\UserManagement.Api.csproj",
-      "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Api\\obj\\",
+      "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Api\\UserManagement.Api.csproj",
+      "packagesPath": "C:\\Users\\AlbertoPyt\\.nuget\\packages\\",
+      "outputPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\AlbertoPyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5248,14 +5245,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj": {
-              "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj"
+            "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj": {
+              "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Core\\UserManagement.Core.csproj"
             },
-            "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Data\\UserManagement.Data.csproj": {
-              "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Data\\UserManagement.Data.csproj"
+            "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Data\\UserManagement.Data.csproj": {
+              "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Data\\UserManagement.Data.csproj"
             },
-            "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj": {
-              "projectPath": "C:\\Temp\\Programacion\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj"
+            "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj": {
+              "projectPath": "D:\\Programación\\Net Core\\UserManagement\\UserManagement.Services\\UserManagement.Services.csproj"
             }
           }
         }
@@ -5306,7 +5303,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014977\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
