@@ -3,3 +3,8 @@
 
 #Visual Studio
 .vs
+
+# Folders not included
+bin
+obj
+packages
